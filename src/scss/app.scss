@@ -1,0 +1,21 @@
+@use '@material/typography/mdc-typography';
+@use '@material/button/mdc-button';
+@use '@material/button';
+@use '@material/ripple';
+
+body{
+    margin: 0;
+}
+
+h1{
+    color: #fff;
+    background-color: black;
+}
+
+.page-body{
+    margin: 0 10%;
+}
+
+.foo-button {
+    @include button.container-fill-color(darksalmon);
+  }
